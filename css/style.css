@@ -3812,7 +3812,7 @@ header {
 .sidepanel .themenu {
   list-style: none;
   position: relative;
-  margin: 0;
+  margin: 0 45px;
   padding: 0;
 }
 
@@ -3826,7 +3826,11 @@ header {
 .closebtn {
   position: absolute;
   right: 30px;
-  top: -60px;
+  top: -40px;
+}
+
+.flogo {
+  justify-content: space-between;
 }
 
 h1 {
@@ -4561,6 +4565,11 @@ footer {
   .decor form.form_block {
     justify-content: center;
   }
+
+  .no-gutters div {
+    justify-content: center;
+    margin: 15px 0;
+  }
 }
 /* Small Devices, Tablets */
 @media (max-width: 768px) {
@@ -4663,10 +4672,6 @@ footer {
   .how-to-start-description {
     font-size: 3rem;
   }
-  .no-gutters div {
-    justify-content: center;
-    margin: 15px 0;
-  }
   .button-main-how-to {
     width: 75%;
   }
@@ -4713,7 +4718,7 @@ footer {
     font-size: 3rem;
     text-align: center;
     display: block;
-    
+
   }
 }
 /* Extra Small Devices, Phones */
