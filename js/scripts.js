@@ -6,6 +6,25 @@ $(window).on('load', function () {
     $preloader.delay(50).fadeOut('slow');
 });
 
+// Main Menu
+function openNav() {
+    var x = window.matchMedia("(max-width:900px)");
+
+    if (x.matches) {
+        document.getElementById("mySidepanel").style.width = "80%";
+    } else {
+        document.getElementById("mySidepanel").style.width = "25%";
+    }
+};
+    
+function closeNav() {
+    document.getElementById("mySidepanel").style.width = "0";
+};
+
+$('.scroll-button').click(function(){
+    document.getElementById("mySidepanel").style.width = "0";
+});
+
 $(document).ready(function() {
 
     $('#results-slider').owlCarousel({

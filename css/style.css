@@ -3794,6 +3794,41 @@ header {
     height: 100%;
     width: 100%;  }
 
+.sidepanel {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1100;
+  top: 0;
+  right: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+  text-align: left;
+  color: #ffffff; 
+}
+
+.sidepanel .themenu {
+  list-style: none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.sidepanel .themenu a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 0;
+}
+
+.closebtn {
+  position: absolute;
+  right: 30px;
+  top: -60px;
+}
+
 h1 {
   margin: 0;
   color: #ffffff;
@@ -4673,6 +4708,11 @@ footer {
   }
   .social {
     justify-content: center;
+  }
+  .sidepanel .themenu a {
+    font-size: 3rem;
+    text-align: center;
+    display: block;
   }
 }
 /* Extra Small Devices, Phones */
