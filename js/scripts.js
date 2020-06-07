@@ -13,7 +13,7 @@ function openNav() {
     if (x.matches) {
         document.getElementById("mySidepanel").style.width = "80%";
     } else {
-        document.getElementById("mySidepanel").style.width = "25%";
+        document.getElementById("mySidepanel").style.width = "40%";
     }
 };
     
