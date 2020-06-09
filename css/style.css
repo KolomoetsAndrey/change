@@ -3730,7 +3730,7 @@ header {
   left: 0;
   right: 0;
   z-index: 99999;
-  padding-top: 40px;
+/*  padding-top: 40px; */
   height: 60px;
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease; }
@@ -4600,6 +4600,7 @@ footer {
     height: 100px;
     align-items: center;
     display: flex;
+    padding-top: 40px;
   }
 
 /* Extra Small Devices, Phones */
@@ -4728,7 +4729,9 @@ footer {
     font-size: 3rem;
     text-align: center;
     display: block;
-
+  }
+  .block_title {
+    font-size: 4rem;
   }
 }
 /* Extra Small Devices, Phones */
