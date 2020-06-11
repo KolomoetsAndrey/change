@@ -4595,60 +4595,63 @@ footer {
     transform: none !important;
     /*CSS animations */
     -webkit-animation: none !important;
-    animation: none !important; } }
+    animation: none !important; } 
+    #questions-form .button-main[type="submit"] {
+      width: 300px;
+    }
+  
+    .s-about p, .s-about2 p {
+      font-size: 2rem;
+      line-height: 2.5rem;
+    }
+    .s-about h3, .s-about2 h3 {
+      padding-top: 40px;
+      font-size: 2.5rem;
+      padding-bottom: 15px;
+    }
+    .steps-description {
+      margin: 10px 0 15px;
+      font-size: 2.5rem;
+      line-height: 2.5rem;
+    }
+    .steps-subdescription {
+      font-size: 1.5rem;
+    }
+    .steps .step h4 {
+      font-size: 1rem;
+    }
+    .steps .step p {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+    .how-to-start-description {
+      font-size: 2rem;
+    }
+    .s-how-to-start h5 {
+      align-items: center;
+      display: flex;
+    }
+    .button-main {
+      font-size: 2rem;
+    }
+    .s-how-to-start .text {
+      max-width: 70%;
+      font-size: 2rem;
+    }
+    .s-presents .presents-description {
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+  
+  }
+
+    
   
   header {
     height: 100px;
     align-items: center;
     display: flex;
     padding-top: 40px;
-  }
-
-  #questions-form .button-main[type="submit"] {
-    width: 300px;
-  }
-
-  .s-about p, .s-about2 p {
-    font-size: 2rem;
-    line-height: 2.5rem;
-  }
-  .s-about h3, .s-about2 h3 {
-    padding-top: 40px;
-    font-size: 2.5rem;
-    padding-bottom: 15px;
-  }
-  .steps-description {
-    margin: 10px 0 15px;
-    font-size: 2.5rem;
-    line-height: 2.5rem;
-  }
-  .steps-subdescription {
-    font-size: 1.5rem;
-  }
-  .steps .step h4 {
-    font-size: 1rem;
-  }
-  .steps .step p {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-  .how-to-start-description {
-    font-size: 2rem;
-  }
-  .s-how-to-start h5 {
-    align-items: center;
-    display: flex;
-  }
-  .button-main {
-    font-size: 2rem;
-  }
-  .s-how-to-start .text {
-    max-width: 70%;
-    font-size: 2rem;
-  }
-  .s-presents .presents-description {
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 
 /* Extra Small Devices, Phones */
