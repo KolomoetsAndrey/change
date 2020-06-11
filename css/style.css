@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&subset=cyrillic,cyrillic-ext,latin-ext");
+/*
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -3592,7 +3593,7 @@ a.text-dark:focus, a.text-dark:hover {
 
 .embed-responsive-1by1::before {
   padding-top: 100%; }
-
+*/
 .button-transparent {
   display: inline-block;
   padding: 10px 20px;
@@ -3659,7 +3660,7 @@ a.text-dark:focus, a.text-dark:hover {
     content: "";
     display: block;
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     left: 0;
     right: 0;
     height: 30px;
@@ -4606,7 +4607,7 @@ footer {
 /* Extra Small Devices, Phones */
 @media (max-width: 576px) {
   .s-head .container {
-    height: 190vh;
+    height: 240vh;
   }
   .logo1 {
     height: 75px;
@@ -4638,7 +4639,7 @@ footer {
   }
   .s-about p, .s-about2 p {
     font-size: 3rem;
-    line-height: 3rem;
+    line-height: 4rem;
   }
   .steps-description {
     font-size: 3.5rem;
@@ -4669,16 +4670,16 @@ footer {
   }
   #questions-form label {
     margin: 15px auto;
-    width: 500px;
+    width: 900px;
     height: 100px;
   }
   #questions-form label input {
-    width: 458px;
-    font-size: 3.4rem;
+    width: 844px;
+    font-size: 2.5rem;
   }
   #questions-form .button-main[type="submit"] {
     margin: 15px auto;
-    width: 552px;
+    width: 900px;
   }
   .how-to-start-description {
     font-size: 3rem;
@@ -4695,12 +4696,12 @@ footer {
   .s-how-to-start .text {
     max-width: 90%;
     font-size: 3rem;
-    line-height: 3rem;
+    line-height: 4rem;
   }
   .s-presents .presents-description {
     max-width: 90%;
     font-size: 3rem;
-    line-height: 3rem;
+    line-height: 4rem;
   }
   .s-presents .presents {
     flex-direction: column;
@@ -4717,13 +4718,14 @@ footer {
     border-right: 1px solid transparent;
   }
   .f-menu ul li a {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
   .f-copyright {
     font-size: 2.5rem;
   }
   .social {
     justify-content: center;
+    padding: 0;
   }
   .sidepanel .themenu a {
     font-size: 3rem;
@@ -4732,11 +4734,44 @@ footer {
   }
   .block_title {
     font-size: 4rem;
+    margin-bottom: 15px;
+  }
+  .s-presents .present-place-1 {
+    height: 400px;
+    width: 900px;
+  }
+  .s-presents .present-place-number {
+    font-size: 4rem;
+  }
+  .s-presents .present-place-icon {
+    width: 150px;
+    height: 150px;
+  }
+  .s-presents .present-place-1 .present-place-description {
+    font-size: 2.5rem;
+  }
+  .s-presents .present-place-2 {
+    height: 400px;
+    width: 900px;
+    order: -1;
+  }
+  .s-presents .present-place-3 {
+    height: 400px;
+    width: 900px;
+  }
+  .s-presents .present-place-3 .present-place-description {
+    font-size: 2.5rem;
   }
 }
 /* Extra Small Devices, Phones */
 @media (max-width: 480px) {
-  /* */ }
+  .s-head .container {
+    height: 300vh;
+  }  
+}
 /* Custom, iPhone Retina */
 @media (max-width: 320px) {
-  /* */ }
+  .s-head .container {
+    height: 390vh;
+  }  
+}
