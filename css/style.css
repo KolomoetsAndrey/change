@@ -4572,7 +4572,7 @@ footer {
 @media (max-width: 1200px) {
   /* */ }
 /* Medium Devices, Desktops */
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .decor form.form_block {
     justify-content: center;
   }
@@ -4580,6 +4580,19 @@ footer {
   .no-gutters div {
     justify-content: center;
     margin: 15px 0;
+  }
+  .form_block {
+    flex-direction: column;
+    justify-content: center !important;
+  }
+  #questions-form label {
+    margin: 15px auto;
+  }
+  #questions-form .button-main[type="submit"] {
+    margin: 15px auto;
+  }
+  #questions-form > div:first-child {
+    margin-bottom: 0;
   }
 }
 /* Small Devices, Tablets */
